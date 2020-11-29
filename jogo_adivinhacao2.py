@@ -1,4 +1,4 @@
-# Jogo da Adivinhação de 0 a 10.
+# Jogo da Adivinhação de 0 a 10. 
 
 from random import randint
 from time import sleep
