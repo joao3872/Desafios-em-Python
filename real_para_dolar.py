@@ -1,0 +1,5 @@
+valor = float(input('Quanto dinheiro você tem na carteira? R$ '))
+dol = (valor / 5.6379)
+real = (valor * 5.6379)
+print(f'Com R$ {valor :.2f}, podemos comprar US$ {dolar :.2f}')
+print(f'Caso você tenha US$ {valor :.2f}, poderá comprar R$ {real :.2f}')
