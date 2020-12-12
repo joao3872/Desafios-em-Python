@@ -1,0 +1,10 @@
+aluguel = float(input('Por quantos dias, o carro foi alugado? '))
+km = float(input('Quantos Km, você percorreu com o carro? '))
+preco = (aluguel * 60)
+distancia = (km * 0.15)
+soma = (preco + distancia)
+
+print(' ')
+print(f'Então o valor de seu aluguel, é de R$ {soma :.2f}')
+print(' ')
+print(f'Caso você queira saber, qual foi o valor dos Km percorridos, este é o valor: R$ {distancia :.2f} \nE o preço da quantidade de dias é: R$ {preco :.2f}')
