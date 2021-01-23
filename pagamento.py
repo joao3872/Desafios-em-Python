@@ -7,7 +7,7 @@ opcao = int(input('Qual é a opção? '))
 vista = (preco - preco * (10/100))
 vistaC = (preco - preco * (5/100))
 tresV = (preco + preco * (20/100))
-print('Sua compra tem um total de R$ {preco :.2f}')
+print(f'Sua compra tem um total de R$ {preco :.2f}')
 
 if(opcao == 1):
     print(f'Pagando a Vista, você ganha 10% de desconto, então o total a pagar é R$ {vista :.2f}')
