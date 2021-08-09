@@ -1,4 +1,4 @@
-# O clássico jogo da velha.
+# O clássico JO-KEN-PO.
 
 from random import choice
 from time import sleep
