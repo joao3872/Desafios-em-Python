@@ -1,0 +1,3 @@
+from pasta import *
+
+menu()
